@@ -1,0 +1,46 @@
+/* section#1 */
+.wraper {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+.container {
+    height: 500px;
+    /* max-width: 1170px; */
+    width:80%;
+    background-color: yellow;
+    margin:0 auto;
+}
+
+
+/* image exmaple */
+.image-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.image-box {
+    width: 250px;
+}
+.image-wr {
+    width: 100%;
+    display: block;
+}
+/* background image property */
+.bg-image {
+    background-image: url('../images/image.jpg');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    background-size: cover;
+}
+
+
+
